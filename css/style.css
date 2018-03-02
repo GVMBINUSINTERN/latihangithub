@@ -1,0 +1,108 @@
+body{
+  margin: 0 auto;
+}
+
+
+/*Navbar*/
+
+.navbar{
+	background-color: #DCDCDC
+}
+
+/*.img-navbar{
+	padding: 10px
+}*/
+
+.img-navbar img{
+	margin: 25px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 35px 20px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #3333;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-list{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-list a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-list a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+/*====================================*/
+
+
+
+/*List*/
+
+.content{
+	background-color: #3332;
+	margin-left: 120px;
+	margin-top: 100px;
+	border-style: dashed;
+	padding: 10px;
+}
+
+
+/*List Gambar*/
+
+.img1{
+	margin-left: 100px;
+	margin-top: 100px;
+	background-color: #3331;
+	padding: 10px;
+	border-style: dashed;
+}
+
+.gambar{
+	margin-left: 120px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.table{
+	border-style: dashed;
+}
+
+tr td{
+	border-style: dashed;
+}
