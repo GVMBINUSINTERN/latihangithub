@@ -5,6 +5,9 @@
 	left : 0px;
 	color : white;
 }
+body{
+	background-color: #f4f4f4;
+}
 
 ul{
 	list-style: none;
@@ -70,12 +73,21 @@ ul:after{
     float: left;
     width: 20%;
     height: 20%; 
-    background-color: #b7b7b7;
+    background-color: #b2aba9;
     border: 1px dashed black;
     margin-right: 2;
     text-align: center;
    	margin-left: 9.5%;
+   	border-radius: 5px;
 }
+.column p, .column h2{
+	color: white;
+}
+
+.column p{
+	font-size: 
+}
+
 .konten2{
 	position: absolute;
 	width: 99%;
